@@ -16,7 +16,7 @@ public class BanqueIMPL implements BanqueLocal {
 
 	@Override
 	public Compte addCompte(Compte cp) {
-		em.persist(cp);
+		em.persist(cg);
 		return cp;
 	}
 	@Override
